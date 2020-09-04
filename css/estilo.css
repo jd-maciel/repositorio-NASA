@@ -1,31 +1,53 @@
-body {
-    margin: 0;
-    padding: 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-img {
-    margin-top: 40px;
-    width: 300px;
-}
-
-.conteudo{
+.site{
     position: absolute;
-    top: 340px;
+    top: 0px;
     left: 0px;
     width: 100%;
-    height: 400px;
-    background-color: rgb(174, 182, 182);
+    height: 100%;
+    background-color: rgb(22, 97, 236);
+
 }
 
-.rodape{
-    position: absolute;
-    top: 740px;
-    left: 0px;
+.menu{
+    position: relative;
+    float: left;
     width: 100%;
-    height: 400px;
-    background-color: rgb(67, 14, 117);
+    height: 10%;
+    background-color: rgb(12, 6, 65);
+
+}
+
+
+.banner{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(30, 105, 52);
+
+}
+
+
+.video-texto{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(47, 92, 92);
+
+}
+
+
+.formulario{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(82, 80, 80);
+
 }
